@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #4CAF50;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .content {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-gap: 20px;
+        }
+
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .box {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to Our Website</h1>
+    </div>
+
+    <div class="content">
+        <div class="box">
+            <h2>About Us</h2>
+            <p>We are a team of passionate developers working to improve your digital experience.</p>
+        </div>
+        <div class="box">
+            <h2>Services</h2>
+            <p>We offer a variety of services including web development, app development, and graphic design.</p>
+        </div>
+        <div class="box">
+            <h2>Contact Us</h2>
+            <p>Email: sushilyadav200092000@gmail.com</p>
+            <p>Phone: +91-8787374290</p>
+        </div>
+    </div>
+</body>
+</html>
